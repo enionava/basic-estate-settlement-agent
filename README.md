@@ -53,24 +53,34 @@ The design emphasizes **clear separation of concerns** (routing vs classificatio
 
 ## ⚙️ Setup
 
-### 1. Clone & Install
+### 1. Clone & Navigate
 
 ```bash
 git clone <your_repo_url>
 cd alix_agent
+```
+
+### 2. Create Virtual Environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # On Linux/Mac
+.venv\Scripts\activate      # On Windows
+```
+
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Environment
+### 4. Environment
 
 Copy the sample env:
 
 ```bash
 cp .env.example .env
 ```
-
-*(The project works out-of-the-box with mock PDFs; no private data or external APIs needed.)*
-
 ---
 
 ## 🧪 Running Tests
