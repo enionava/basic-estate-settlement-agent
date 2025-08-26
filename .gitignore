@@ -1,0 +1,59 @@
+# -------------------
+# Python
+# -------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# Virtual env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.python_history
+.ipython/
+
+# -------------------
+# Project Specific
+# -------------------
+# Environment & config
+.env
+.env.local
+.env.*.local
+
+# Mock PDFs (if you don’t want to track test docs)
+# comment this out if you want them versioned
+mock_pdfs/
+
+# Local db / cache
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.cache/
+
+# Coverage / testing
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
